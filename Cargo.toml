@@ -1,0 +1,10 @@
+[package]
+name = "my-api"
+version = "0.1.0"
+authors = ["Your Name <your.email@example.com>"]
+edition = "2021"
+
+[dependencies]
+actix-web = { version = "4.5.1", features = ["macros"] }
+actix-service = { version = "2.0.2" }
+futures = { version = "0.3.30" }
